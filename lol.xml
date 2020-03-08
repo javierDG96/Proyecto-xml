@@ -45,6 +45,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Rebirth</name>
+				<cost>0</cost>
 				<iconPath>Cryophoenix_Rebirth.png</iconPath>
 				<range>0</range>
 				<description>Upon dying, Anivia will revert into an egg. If the egg can survive for six seconds, she is gloriously reborn.</description>
@@ -211,6 +212,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Twin Disciplines</name>
+				<cost>0</cost>
 				<iconPath>AkaliTwinDisciplines.png</iconPath>
 				<range>0</range>
 				<description>Upon obtaining 20 Ability Power, Akali's basic attacks deal 8% bonus magic damage, increasing by 1% for every 6 Ability Power gained thereafter. Upon obtaining 10 Bonus Attack Damage, Akali gains 8% Spell Vamp, increasing by an additional 1% for every 6 Bonus Attack Damage gained thereafter.</description>
@@ -375,6 +377,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Headshot</name>
+				<cost>0</cost>
 				<iconPath>Caitlyn_Headshot.png</iconPath>
 				<range>0</range>
 				<description>Every few basic attacks, Caitlyn will fire a headshot dealing 150% damage to a champion or 250% damage to a minion.</description>
@@ -540,6 +543,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Hemorrhage</name>
+				<cost>0</cost>
 				<iconPath>Darius_Icon_Hemorrhage.png</iconPath>
 				<range>0</range>
 				<description>Darius aims his attacks strategically, causing his target to bleed. This effect stacks up to five times.</description>
@@ -705,6 +709,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Wicked Blades</name>
+				<cost>0</cost>
 				<iconPath>Draven_passive.png</iconPath>
 				<range>0</range>
 				<description>Draven's Critical Strikes deal bonus physical damage over time. Spinning Axe also causes this effect even if it does not Critically Strike.</description>
@@ -870,6 +875,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Perseverance</name>
+				<cost>0</cost>
 				<iconPath>Garen_Perseverance.png</iconPath>
 				<range>0</range>
 				<description>If Garen has not taken damage from monsters, towers or champions in the last 10 seconds, Garen regenerates 0.5% of his maximum Health each second.</description>
@@ -1031,6 +1037,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>True Grit</name>
+				<cost>0</cost>
 				<iconPath>GravesTrueGrit.png</iconPath>
 				<range>0</range>
 				<description>Graves gains increasing armor and magic resistance the longer he remains in combat. </description>
@@ -1198,6 +1205,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Unseen Threat</name>
+				<cost>0</cost>
 				<iconPath>Khazix_P.png</iconPath>
 				<range>0</range>
 				<description>When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy Champion to deal bonus magic damage and slow.</description>
@@ -1363,6 +1371,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Sunlight</name>
+				<cost>0</cost>
 				<iconPath>LeonaSunlight.png</iconPath>
 				<range>0</range>
 				<description>Damaging spells afflict enemies with Sunlight for 3.5 seconds. When allied Champions deal damage to those targets, they consume the Sunlight debuff to deal additional magic damage.</description>
@@ -1528,6 +1537,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Pix, Faerie Companion</name>
+				<cost>0</cost>
 				<iconPath>Lulu_PixFaerieCompanion.png</iconPath>
 				<range>0</range>
 				<description>Pix is a wild Faerie that accompanies Lulu. Pix will fire a barrage of magical energy at targets that Lulu attacks.</description>
@@ -1693,6 +1703,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Strut</name>
+				<cost>0</cost>
 				<iconPath>MissFortune_Strut.png</iconPath>
 				<range>0</range>
 				<description>After 5 seconds of not being attacked, Miss Fortune gains an additional 25 Movement Speed. This bonus increases by 9 each second up to a maximum bonus of 70.</description>
@@ -1858,6 +1869,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Prowl</name>
+				<cost>0</cost>
 				<iconPath>Nidalee_OnTheProwl.png</iconPath>
 				<range>0</range>
 				<description>Moving through brush increases Nidalee's movement speed by 15% for 2 seconds.</description>
@@ -2022,6 +2034,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Runic Blade</name>
+				<cost>0</cost>
 				<iconPath>RivenRunicBlades.png</iconPath>
 				<range>0</range>
 				<description>Riven's abilities charge her blade, causing her basic attacks to deal bonus physical damage. Riven's blade may be charged up to three times and expends one charge per attack.</description>
@@ -2183,6 +2196,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Arcane Mastery</name>
+				<cost>0</cost>
 				<iconPath>Ryze_SpellStrike.png</iconPath>
 				<range>0</range>
 				<description>When Ryze casts a spell, all other spells have their cooldown reduced by 1 second.</description>
@@ -2348,6 +2362,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Backstab</name>
+				<cost>0</cost>
 				<iconPath>Jester_CarefulStrikes.png</iconPath>
 				<range>0</range>
 				<description>Shaco deals 20% bonus damage when striking a unit from behind.</description>
@@ -2514,6 +2529,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Fleet of Foot</name>
+				<cost>0</cost>
 				<iconPath>Sivir_Sprint.png</iconPath>
 				<range>0</range>
 				<description>Sivir gains a short burst of Movement Speed when she attacks an enemy champion.</description>
@@ -2679,6 +2695,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Monkey's Agility</name>
+				<cost>0</cost>
 				<iconPath>Udyr_MonkeysAgility.png</iconPath>
 				<range>0</range>
 				<description>Entering a stance grants Udyr 10% Attack Speed for a short duration. This effect can stack up to 3 times.</description>
@@ -2845,6 +2862,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Eternal Thirst</name>
+				<cost>0</cost>
 				<iconPath>Warwick_InnerHunger.png</iconPath>
 				<range>0</range>
 				<description>Each of Warwick's attacks will heal him. Each successive attack against the same target will restore increasing amounts of health to Warwick.</description>
@@ -3010,6 +3028,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Stone Skin</name>
+				<cost>0</cost>
 				<iconPath>MonkeyKingStoneSkin.png</iconPath>
 				<range>0</range>
 				<description>Increases Wukong's armor and magic resistance for each nearby enemy champion.</description>
@@ -3176,6 +3195,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Challenge</name>
+				<cost>0</cost>
 				<iconPath>XinZhao_TirelessWarrior.png</iconPath>
 				<range>0</range>
 				<description>Xin Zhao challenges his target with his basic attacks and Audacious Charge, reducing its armor by 15% for 3 seconds.</description>
@@ -3341,6 +3361,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Contempt for the Weak</name>
+				<cost>0</cost>
 				<iconPath>shadowninja_P.png</iconPath>
 				<range>0</range>
 				<description>Zed's basic attacks against targets below 50% health deal 8% of the target's maximum health as bonus magic damage. This effect can only occur once every 10 seconds on the same target.</description>
@@ -3506,6 +3527,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Short Fuse</name>
+				<cost>0</cost>
 				<iconPath>ZiggsPassiveReady.png</iconPath>
 				<range>0</range>
 				<description>Every 12 seconds, Ziggs' next basic attack deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability.</description>
@@ -3672,6 +3694,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Heightened Learning</name>
+				<cost>0</cost>
 				<iconPath>Chronokeeper_Slow.png</iconPath>
 				<range>0</range>
 				<description>Increases experience gain of all allied champions by 8%.</description>
@@ -3838,6 +3861,7 @@
 			<Ability>
 				<rank>1</rank>
 				<name>Rise of the Thorns</name>
+				<cost>0</cost>
 				<iconPath>ZyraP.png</iconPath>
 				<range>0</range>
 				<description>When Zyra dies, she briefly returns to her plant form. After 2 seconds, she can press any ability to fire a thorn toward her cursor, dealing true damage to each enemy it strikes.</description>
