@@ -1,7 +1,7 @@
 from lxml import etree
 prueba=etree.parse("lol.xml")
 
-from func import listar_nomtil,contar_camp
+from func import listar_nomtil,contar_camp,rol_camp
 
 while True:
     print("Menú de ejercicios")
@@ -20,3 +20,9 @@ while True:
 
     elif opcion==2:
     	print("Hay",contar_camp(prueba),"campeones en el documento")
+
+    elif opcion==3:
+    	rol=input("Dime el rol a buscar:")
+    	for campeones in rol_camp(prueba,rol):
+    		print(campeones)
+    
