@@ -1,7 +1,7 @@
 from lxml import etree
 prueba=etree.parse("lol.xml")
 
-from func import listar_nomtil,contar_camp,rol_camp
+from func import listar_nomtil,contar_camp,rol_camp,rang_camp
 
 while True:
     print("Menú de ejercicios")
@@ -23,6 +23,17 @@ while True:
 
     elif opcion==3:
     	rol=input("Dime el rol a buscar:")
+    	if rol not in rol_camp(prueba,rol):
+    		print("Ese rol no existe")
     	for campeones in rol_camp(prueba,rol):
     		print(campeones)
+
+    elif opcion==4:
+    	rango=int(input("Dime el rango de ataque:"))
+    	if rango <0:
+    		print("Error,eso no es posible")
+    	else:
+    		for campeones in rang_camp(prueba,rango):
+    			print(campeones)
+
     
