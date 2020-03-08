@@ -17,6 +17,11 @@ def rol_camp(prueba,rol):
 def rang_camp(prueba,rango):
 	campeones=prueba.xpath('//Champion/estadisticas[range>="%s"]/../name/text()'%(rango))
 	return campeones
+
+def habcos_camp(prueba,campeon):
+	habilidades=prueba.xpath('//Champion[name="%s"]/abilities/Ability/name/text()'% campeon)
+	coste=prueba.xpath('//Champion[name="%s"]/abilities/Ability/cost/text()'% campeon)
+	return zip(habilidades,coste)
 	
 
 
