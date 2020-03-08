@@ -13,6 +13,10 @@ def rol_camp(prueba,rol):
 	campeones=[]
 	campeones=prueba.xpath('//Champion[tags="%s"]/name/text()' % (rol))
 	return campeones
+
+def rang_camp(prueba,rango):
+	campeones=prueba.xpath('//Champion/estadisticas[range>="%s"]/../name/text()'%(rango))
+	return campeones
 	
 
 
